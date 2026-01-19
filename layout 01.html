@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 01</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #main{
+            margin: 0;
+            padding: 2px;
+            width: 500px;
+            height: 200px;
+            background-color: gray;
+            display: flex;
+        }
+        #right{
+            flex-grow: 1;
+            width: 1500px;
+            height: 1000px;
+            background-color:rgb(107, 107, 5);
+
+        }
+        #left{
+            flex-grow: 2;
+            width: 1500px;
+            height: 1000px;
+            background-color:rgb(29, 53, 124);
+            display:flex;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="right">
+            <h2>right box</h2>
+    </div>
+    <div id="left">
+       <header><h2>left box</h2></header>
+    </div>
+    </div>
+    
+</body>
+</html>
